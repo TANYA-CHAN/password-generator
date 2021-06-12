@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 2rem;
+}
+body {
+    background-image: url('https://i.pinimg.com/originals/28/5c/6a/285c6a6397aa916898d0c264c5a5f23f.png');
+    /* background-image: url('https://i.pinimg.com/originals/a2/67/d7/a267d7f5f50d54062b142c6ffa8f6c96.jpg'); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+    /* background-color: rgb(127, 213, 218); */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin:0 ;
+    min-height: 100vh;
+}
+
+.pw-container {
+    background-color: pink;
+    box-shadow: 0 4px  rgba(208, 128, 164, 0.5);
+    min-width: 400px;
+}
+
+.pw-header {
+    padding: 1rem;
+} 
+
+.pw {
+    background-color: white;
+    color: pink;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 70px;
+    width: 100%;
+    position: relative;
+    padding: 1rem;
+    overflow: auto;
+}
+
+.pw button {
+    background-color: pink;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 0.25rem;
+    font-family: inherit;
+    font-family: bold;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(0, 20%);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    opacity: 0;
+}
+
+.form-control {
+    color: #eee;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.75rem 0;
+}
+
+.pw:hover button {
+    opacity: 1;
+    transform: translate(0,0%);
+}
+
+.pw-body {
+padding: 0 1rem 1rem;
+}
+
+.generate {
+    display: block;
+    border: none;
+    cursor: pointer;
+    color: pink;
+    background-color: white;
+    padding: 0.5rem;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 1rem;
+    width: 100%;
+}
+.col {
+    text-align: center;
+}
+a:hover, a:active {
+    color: #fff;
+  }
+  a:link, a:visited {
+    color: #fff;
+    text-align: center;
+  }
+/*1rem = 16px;*/
+
+
